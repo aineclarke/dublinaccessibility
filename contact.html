@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en"> 
+    <head>
+        <title>Dublin Wheelchairs</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        
+        <hr>
+        <div class="navigation">
+     <ul>
+        <li><a href=".index.html">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="attractions.html">Attractions</a></li>
+         <li><a href="dining.html">Dining</a></li>
+         <li><a href="transport.html">Transport Options</a></li>
+         <li><a href="contact.html">Contact</a></li>
+         <li><a href="help.html">Help us Improve</a></li>
+         
+    
+       </ul>
+        </div>
+      <hr> 
+        <p>Please feel free to contact us with any questions or queries you may have.<br> We will do our best to get back to you as soon as possible.</p>
+        
+    <div class="form-container">
+        <form action="" method="get">
+
+            <!-- name -->
+            <div class="row">
+                <div class="col-label">
+                    <label for="name">Name</label>
+                </div>
+                <div class="col-input">
+                    <input type="text" id="fname" placeholder="John Doe">
+                </div>
+            </div>
+
+            <!-- email -->
+            <div class="row">
+                <div class="col-label">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col-input">
+                    <input type="email" id="email" placeholder="johndoe123@gmail.com">
+                </div>
+            </div>
+
+            <!-- number -->
+            <div class="row">
+                <div class="col-label">
+                    <label for="fname">Telephone</label>
+                </div>
+                <div class="col-input">
+                    <input type="tel" id="telnum" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+            </div>
+
+            <!-- gender -->
+            <div class="row">
+                <div class="col-label">
+                    <label for="gender">I use this website's information for...</label>
+                </div>
+                <div class="col-input">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Myself</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Someone Else</label><br>
+                
+                </div>
+            </div>
+
+            <!-- message -->
+            <div class="row">
+                <div class="col-label">
+                    <label for="message">Questions and Queries</label>
+                </div>
+                <div class="col-input">
+                    <textarea name="message" id="message" style="height: 150px" placeholder="I have a question about..."></textarea>
+                </div>
+            </div>
+
+            <a href="submit.html">Submit</a>
+        </form>
+    </div>
+        
+        <footer>Copyright 2021</footer>
+</body>
+</html>
